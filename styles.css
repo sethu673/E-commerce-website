@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hwb(119 10% 48%);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsl(0, 2%, 92%);
+}
+
+a {
+    color: hsl(223, 82%, 50%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Login Page Styles */
+.login-container {
+    background-color: hsl(0, 20%, 16%);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.login-container h2 {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: hsl(0, 23%, 97%);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.form-group input:focus {
+    border-color: hsl(212, 90%, 43%);
+    outline: none;
+    background-color: #fff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d87f0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #246bb5;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(253, 249, 249);
+}
